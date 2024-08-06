@@ -1,59 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
+    <style>
+        .navbar {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+        }
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="circle">
+            <img src="InShot_۲۰۲۴۰۸۰۶_۲۱۲۶۵۴۰۱۸.jpg" alt="عکس">
+        </div>
+    </div>
+</body>
+</html>
+
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    @keyframes moveCenter {
+    from { margin-left: 100%; }
+    to { margin-left: 0; }
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+.animated-text {
+    animation: moveCenter 2s forwards;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+</style>
+<div class="animated-text">
+    <center>
+    <img src="https://github.com/Amirwebsite/testweb1/blob/main/IMG_20240806_225807.png?raw=true" alt="" width="350" height="100">
+    </center>
+</div>
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
+<style>
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
 </style>
 </head>
 <body>
-
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content..</p>
-</div>
-
-</body>
-</html>
-</head>
-<body>
-    
-</body>
-</html>
+<table>
+    <tr>
+        <th>قیمت</th>
+        <th>خدمات</th>
+    </tr>
+    <tr>
+        <td>500,000 تومان</td>
+        <td>نظافت ساختمان</td>
+        
+    </tr>
+    <tr>
+        <td>1,000,000 تومان</td>
+        <td>سرویس اسانسور</td>
+        
+    </tr>
+    <center>
+    <img src="https://github.com/Amirwebsite/testweb1/blob/main/IMG_20240806_231702.png?raw=true" alt="" width="350" height="100">
+    </center>
+    <!-- ادامه ردیف‌ها به همین شکل -->
+</table>
