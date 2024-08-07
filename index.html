@@ -114,3 +114,31 @@
     </tr>
 
 </table>
+<br><br>
+<center>
+<h1>بدهی های واحد</h1>
+</center>
+<center>
+    <form id="myForm">
+        <label for="name">نام:</label>
+        <input type="text" id="name" name="name">
+        <button type="button" onclick="checkName()">تایید</button>
+    </form>
+    <h3 id="phone" style="display: none;">شماره تلفن: 123456789</h3>
+    </center>
+    <script>
+        function checkName() {
+            let name = document.getElementById('name').value;
+            if (name === 'محمد دولتی') {
+                document.getElementById('phone').style.display = 'block';
+                document.getElementById('phone').innerText = 'بدهی به تومان : 120,000 ';
+            } else if (name === 'محرم حسینی') {
+                document.getElementById('phone').style.display = 'block';
+                document.getElementById('phone').innerText = 'بدهی به تومان : 560,000 ';
+            } else if (name === 'ابوالفضل حسینی') {
+                document.getElementById('phone').style.display = 'block';
+                document.getElementById('phone').innerText = 'بدهی به تومان : 140,000 ';
+            }
+
+        }
+    </script>
