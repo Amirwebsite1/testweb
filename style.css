@@ -2,6 +2,23 @@
     font-family: myFont;
     src: url(Cinema.ttf);
 }
+h1{
+    color: yellow;
+    font-size: 300px;
+    font-family:myFont;
+    text-shadow: 0 0 15px green,
+                 0 0 15px green;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
 .ali{
     font-family: myFont;
     font-size: 40px;
